@@ -65,3 +65,6 @@ parser = StrOutputParser()
 main_chain = parallel_chain | prompt | llm | parser
 
 main_chain.invoke('Can you summarize the video')
+
+#this is the whole code in one coding file.
+#i will change the code and split it into 
